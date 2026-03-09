@@ -1,0 +1,7 @@
+(What is an array?)
+
+Array - stores a fixed-size collection of elements of the same data in contiguous memory locations
+- Each element is identified by an index (from 0 to n-1; zero-based indexing)
+- Use the index to access the data in an array structure
+- Make sure the elements stored in an array are all the same data type
+- Different data structures for the array theoretical data structure

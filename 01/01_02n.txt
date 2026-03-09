@@ -1,0 +1,6 @@
+(Data types in Python)
+
+Int - integer
+Float - floating point number (decimal number)
+String - a string of characters, used to represent text
+Boolean - true or false value, used to implement conditional statements

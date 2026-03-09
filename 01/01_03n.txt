@@ -1,0 +1,17 @@
+(Built-in data structures in Python)
+
+List - a mutable array (can be altered after being instantiated)
+Ex: an ordered collection of numbers [1, 2, 3, 4, 5]
+
+Tuple - an immutable array (may not be altered after being instantiated)
+  - Tuples store related data
+Ex: coordinate (5, 1)
+
+Dictionaries - store key-value pairs; referencing a key retrieves the value
+Ex: {‘Jane’: 25, ‘John’: 27, ‘Adam’: 24’}
+
+Sets - store a collection of unique items in an unordered manner
+Ex: {‘dog’, ‘cat’, ‘fish’}
+
+Deque (‘deck’; double ended queue) - allows you to insert or remove data from both ends
+Ex: d = deque([1, 2, 3])
