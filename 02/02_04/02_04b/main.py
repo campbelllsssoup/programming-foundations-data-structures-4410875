@@ -4,13 +4,20 @@ has in a given class.
 '''
 
 student_pet_count_list = [0, 1, 0, 2, 1, 1, 4, 0, 0, 0, 3, 2, 1, 3, 0, 2, 2, 4]
+student_pet_count_list[2] = 3
+student_pet_count_list[3] += 1
+student_pet_count_list[-1] += 2
+student_pet_count_list.append(4)
 
-NUM_OF_STUDENTS = len(student_pet_count_list)
-print(NUM_OF_STUDENTS)
-SUM = 0
-for INDIVIDUAL_PET_COUNT in student_pet_count_list:
-    SUM = SUM + INDIVIDUAL_PET_COUNT
-print(SUM)
+num_of_students = len(student_pet_count_list)
+print(f"num_of_students: {num_of_students}")
 
-AVERAGE = SUM / NUM_OF_STUDENTS
-print(AVERAGE)
+sum = 0
+
+for individual_pet_count in student_pet_count_list:
+    sum += individual_pet_count
+
+print(f"sum: {sum}")
+
+average_pet_count = sum / num_of_students
+print(f"average_pet_count: {average_pet_count}")

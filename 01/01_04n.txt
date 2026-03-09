@@ -1,0 +1,27 @@
+(Big O Notation)
+
+Operation Types: C.R.U.D. (create, read [search], update, delete)
+
+Time complexity: how long an operation takes to run, independent of the input
+- Helps you decide which data structure fits the current use case
+
+*Constant Time Complexity - O(1)
+- Time required of the algorithms DOES NOT depend on the input
+- Same time for any size input
+- ex: adding a key-value pair to a dictionary
+
+*Logarithmic Time Complexity - O(log n)
+*Linearithmic Time Complexity - O(n log n)
+
+*Linear Time Complexity - O(n)
+- The time required by the algorithm grows linearly with the size of the input
+- ex: 10 milliseconds to search a 10 item list; 100ms to search a 100 item list
+*Quadratic Time Complexity - O(n^2)
+- Time to perform an operation is proportional to the square of the items in the collection
+- Slow performance for large inputs
+
+Big O Notation: describes the amount of time required for an algorithm in the worse case scenario
+- Doesn’t take into account the best case or average case performance
+
+Each data structure has a way to optimize for certain operations
+- Search, insert, delete, sorting data
